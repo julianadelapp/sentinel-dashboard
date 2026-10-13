@@ -1,0 +1,19 @@
+{
+  "name": "sentinel-dashboard",
+  "version": "0.1.0",
+  "description": "Alert dashboard and API for the Sentinel webhook-triage system",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test \"dist/**/*.test.js\"",
+    "start": "node dist/main.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
